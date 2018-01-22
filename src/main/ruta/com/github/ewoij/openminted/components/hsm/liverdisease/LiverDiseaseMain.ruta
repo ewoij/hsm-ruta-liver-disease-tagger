@@ -1,0 +1,9 @@
+PACKAGE com.github.ewoij.openminted.components.hsm.liverdisease;
+
+TYPESYSTEM desc.type.NamedEntity;
+
+WORDTABLE diseases = 'wordtables/ncit-liver-diseases.csv';
+Document{-> MARKTABLE(Disease, 1, diseases, true, 4, "", 0, "value" = 2)};
+
+// remove inclusions
+Disease{PARTOFNEQ(Disease) -> UNMARK(Disease)};

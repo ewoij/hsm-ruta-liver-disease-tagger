@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>Semantics</name>
+  <description/>
+  <version>1.9.0</version>
+  <vendor>Ubiquitous Knowledge Processing (UKP) Lab, Technische Universität Darmstadt</vendor>
+  <types>
+    <typeDescription>
+      <name>de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity</name>
+      <description>Named entities refer e.g. to persons, locations, organizations and so on. They often consist of multiple tokens.</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>value</name>
+          <description>The class/category of the named entity, e.g. person, location, etc.</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      <featureDescription>
+          <name>identifier</name>
+          <description>Identifier of the named entity, e.g. a reference into a person database.</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.tudarmstadt.ukp.dkpro.core.api.ner.type.Disease</name>
+      <description/>
+      <supertypeName>de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity</supertypeName>
+    </typeDescription>
+  </types>
+</typeSystemDescription>
