@@ -6,7 +6,7 @@
   <groupId>com.github.ewoij.openminted.components</groupId>
   <artifactId>hsm-ruta-liver-disease-tagger</artifactId>
   <version>1.0.0</version>
-  <name>${project.groupId}:${project.artifactId}</name>
+  <name>com.github.ewoij.openminted.components:hsm-ruta-liver-disease-tagger</name>
   <description>UIMA Analysis engine annotating liver disease using ruta MARKTABLE.</description>
   <url>https://github.com/ewoij/hsm-ruta-liver-disease-tagger</url>
   <licenses>
