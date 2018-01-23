@@ -1,1 +1,0 @@
-../../com/github/ewoij/openminted/components/hsm/liverdisease/LiverDiseaseMainRutaAnnotator.xml
